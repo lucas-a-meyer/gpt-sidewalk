@@ -28,3 +28,15 @@ plt.ylabel('True label')
 plt.xlabel('Predicted label')
 plt.title('Confusion Matrix')
 plt.show()
+
+# Also print the model accuracy
+accuracy = np.trace(cm) / float(np.sum(cm))
+
+print(f"Accuracy: {accuracy}")
+
+# Also print the model precision and recall for each class
+precision = cm[1, 1] / sum(cm[:, 1])
+recall = cm[1, 1] / sum(cm[1, :])
+
+print(f"Precision: {precision}")
+print(f"Recall: {recall}")

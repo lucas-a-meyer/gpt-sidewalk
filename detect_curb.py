@@ -23,8 +23,8 @@ async def process_images():
         print(f"Processing item {counter} of {len(data)}")
         url = item["url"]
 
-        # Create a semantic Kernek function with the two fields required
-        # by the Vision API: prompt and url
+        # Create a Semantic Kernel context with the two fields required
+        # by the Vision API function: prompt and url
         variables = sk.ContextVariables()
         variables['prompt'] = prompt
         variables['url'] = url        
