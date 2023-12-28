@@ -92,17 +92,17 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92367041_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": false
+        "has_curb_ramp": true
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92367271_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": false
+        "has_curb_ramp": true
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92367320_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": false
+        "has_curb_ramp": true
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92367345_CURB_CurbRamp.jpeg?raw=true",
@@ -142,7 +142,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92379309_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92379452_CURB_CurbRamp.jpeg?raw=true",
@@ -167,7 +167,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92388592_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92388717_CURB_CurbRamp.jpeg?raw=true",
@@ -192,7 +192,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92400142_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92400220_CURB_CurbRamp.jpeg?raw=true",
@@ -207,7 +207,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92402192_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": false
+        "has_curb_ramp": false        
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92409647_CURB_CurbRamp.jpeg?raw=true",
@@ -242,12 +242,12 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92413521_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92417880_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": false
+        "has_curb_ramp": true
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92418346_CURB_CurbRamp.jpeg?raw=true",
@@ -327,7 +327,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92437953_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": false
+        "has_curb_ramp": true
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92449365_CURB_CurbRamp.jpeg?raw=true",
@@ -357,12 +357,12 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92462749_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": false
+        "has_curb_ramp": true
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92462885_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92463895_CURB_CurbRamp.jpeg?raw=true",
@@ -407,7 +407,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92475072_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": false
+        "has_curb_ramp": true
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92475163_CURB_CurbRamp.jpeg?raw=true",
@@ -422,7 +422,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92477199_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92477447_CURB_CurbRamp.jpeg?raw=true",
@@ -487,12 +487,12 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92493068_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92497984_CURB_CurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": true,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/curb_ramp/92498105_CURB_CurbRamp.jpeg?raw=true",
@@ -502,7 +502,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92328472_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92328499_CURB_NoCurbRamp.jpeg?raw=true",
@@ -527,7 +527,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92359357_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92363960_CURB_NoCurbRamp.jpeg?raw=true",
@@ -537,12 +537,12 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92364015_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": false
+        "has_curb_ramp": true
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92364112_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92364169_CURB_NoCurbRamp.jpeg?raw=true",
@@ -607,7 +607,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92394155_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92394291_CURB_NoCurbRamp.jpeg?raw=true",
@@ -647,12 +647,12 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92402085_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92402092_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92407243_CURB_NoCurbRamp.jpeg?raw=true",
@@ -697,7 +697,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92412785_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92413110_CURB_NoCurbRamp.jpeg?raw=true",
@@ -767,12 +767,12 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92432851_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": false
+        "has_curb_ramp": true
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92437287_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": false
+        "has_curb_ramp": true
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92437291_CURB_NoCurbRamp.jpeg?raw=true",
@@ -807,7 +807,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92443270_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92448602_CURB_NoCurbRamp.jpeg?raw=true",
@@ -822,17 +822,17 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92448749_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92449007_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92449108_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92449250_CURB_NoCurbRamp.jpeg?raw=true",
@@ -842,12 +842,12 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92449322_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92452038_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92452142_CURB_NoCurbRamp.jpeg?raw=true",
@@ -877,7 +877,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92458731_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92463800_CURB_NoCurbRamp.jpeg?raw=true",
@@ -917,12 +917,12 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92476950_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92476969_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92479786_CURB_NoCurbRamp.jpeg?raw=true",
@@ -947,17 +947,17 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92480838_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92484324_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92484364_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92488719_CURB_NoCurbRamp.jpeg?raw=true",
@@ -967,7 +967,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92492615_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92492711_CURB_NoCurbRamp.jpeg?raw=true",
@@ -992,7 +992,7 @@
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92498766_CURB_NoCurbRamp.jpeg?raw=true",
         "ground_truth_has_curb_ramp": false,
-        "has_curb_ramp": true
+        "has_curb_ramp": false
     },
     {
         "url": "https://github.com/lucas-a-meyer/gpt-sidewalk/blob/main/no_curb_ramp/92498865_CURB_NoCurbRamp.jpeg?raw=true",

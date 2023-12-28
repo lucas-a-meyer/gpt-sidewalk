@@ -1,63 +1,18 @@
-from openai import OpenAI
+import semantic_kernel as sk
+from semantic_kernel.orchestration import sk_context
 from dotenv import load_dotenv
 import json
+from VisionPlugin import Vision
+import asyncio
 
-load_dotenv()
-client = OpenAI()
-
-def parse_json_answer(str_response: str) -> bool:
-    # remove ```json\n``` from start of string
-    str_response = str_response[7:]
-    # remove ``` from end of string
-    str_response = str_response[:-3]
-    # remove \n from string
-    str_response = str_response.replace("\n", "")
-
-    # read the has_curb_ramp value from the json string
-    json_response = json.loads(str_response)
-    has_curb_ramp = json_response["has_curb_ramp"]
-    return has_curb_ramp
-
-
-def gpt_detect_curb(url: str) -> str:
-    response = client.chat.completions.create(
-    model="gpt-4-vision-preview",
-    messages=[
-        {
-            "role": "user",
-            "content": [
-                {"type": "text", "text": "Can wheelchair users coming from the road easily access the sidewalk without a bump? Respond with a JSON object with a boolean value for the key 'has_curb_ramp'"},
-                {"type": "image_url", "image_url": {"url": f"{url}"}},
-        ],
-        }
-    ],
-    max_tokens=300,
-    )
-    return response.choices[0].message.content
-
-def get_curb_ramp_image_url(url: str) -> bool:
-
-    response = gpt_detect_curb(url)
-
-    # try to parse the answer
-    try:
-        has_ramp = parse_json_answer(response)
-    except:
-        # try again
-        response = gpt_detect_curb(url)
-        try:
-            has_ramp = parse_json_answer(response)
-        except:
-            # try one more time
-            response = gpt_detect_curb(url)
-            has_ramp = parse_json_answer(response)
-    
-    return has_ramp
-
-if __name__ == "__main__":
+async def process_images():
     # read the JSON file
     with open("curb_ramp_list.json", "r") as f:
         data = json.load(f)
+
+    kernel = sk.Kernel()
+    vision = kernel.import_skill(Vision())
+    prompt = "Does this image have a curb ramp? Respond only with 'y' if it does or 'n' if it does not.\n"
 
     # create a counter to track progress
     counter = 0
@@ -67,9 +22,32 @@ if __name__ == "__main__":
         counter += 1
         print(f"Processing item {counter} of {len(data)}")
         url = item["url"]
-        has_ramp = get_curb_ramp_image_url(url)
-        item["has_curb_ramp"] = has_ramp
+
+        # Create a semantic Kernek function with the two fields required
+        # by the Vision API: prompt and url
+        variables = sk.ContextVariables()
+        variables['prompt'] = prompt
+        variables['url'] = url        
+
+        # only process images that have not been processed yet
+        if 'has_curb_ramp' in item:
+            continue
+
+        has_ramp = await kernel.run_async(vision['ApplyPromptToImage'], input_vars=variables)
+        has_ramp = str(has_ramp).strip().lower()
+        if has_ramp == "y":	
+            print("Detected curb ramp")
+            item['has_curb_ramp'] = True
+        elif has_ramp == "n":
+            print("Did not detect curb ramp")
+            item['has_curb_ramp'] = False
+        else:
+            print(f"Unrecognized response: {has_ramp}")
 
     # write the list to a file
     with open("curb_ramp_list.json", "w") as f:
         json.dump(data, f, indent=4)
+
+if __name__ == "__main__":
+    load_dotenv()
+    asyncio.run(process_images())
