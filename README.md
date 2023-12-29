@@ -38,12 +38,12 @@ The confusion matrix is below.
 
 It's likely that higher resolution images will perform a lot better without any additional changes. We may also try to create a computer vision model to help the OpenAI Vision API.
 
-[ ] Add Kayla to GitHub
-[ ] Get images from Bing Streetside
-[ ] Get higher-resolution images from Google Street View
-[ ] Check if the model provides a probability value
-[ ] Experiment with prompt engineering
-[ ] Get different types of images from Google Street View (pano, fish-eye, etc.)
-[ ] Get same set of images in several different configurations (Bing, Google, pano, fish-eye) 
+- [ ] Add Kayla to GitHub
+- [ ] Get images from Bing Streetside
+- [ ] Get higher-resolution images from Google Street View
+- [ ] Check if the model provides a probability value
+- [ ] Experiment with prompt engineering
+- [ ] Get different types of images from Google Street View (pano, fish-eye, etc.)
+- [ ] Get same set of images in several different configurations (Bing, Google, pano, fish-eye) 
 
 
