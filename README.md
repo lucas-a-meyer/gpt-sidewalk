@@ -6,11 +6,16 @@ A curb ramp is an inclined plane installed at or across a curb to allow easy acc
 
 Curb ramps are an essential component of urban infrastructure, ensuring accessibility for all and complying with regulations such as the Americans with Disabilities Act (ADA) in the United States.
 
-Here's an example of an image with a curb ramp
-![Curb ramp](curb_ramp/92413385_CURB_CurbRamp.jpeg)
+Here's an example of an image with a curb ramp:
 
-Here's an example with an image without a curb ramp
+<center>
+![Curb ramp](curb_ramp/92413385_CURB_CurbRamp.jpeg)
+</center>
+Here's an example with an image without a curb ramp:
+
+<center>
 ![No curb ramp](no_curb_ramp/92364015_CURB_NoCurbRamp.jpeg )
+</center>
 
 We used the [Vision plugin](https://github.com/lucas-a-meyer/sk-vision-py) for the [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel/). The Vision plugin provides a simple interface to the [GPT Vision API](https://platform.openai.com/docs/guides/vision).
 
