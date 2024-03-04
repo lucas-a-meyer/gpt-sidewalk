@@ -1,6 +1,5 @@
 from dotenv import load_dotenv
 from azure.cosmos import CosmosClient
-from VisionPlugin import Vision
 import asyncio
 import os
 from openai import AzureOpenAI
